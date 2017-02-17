@@ -21,5 +21,9 @@ namespace javascriptBasic.Controllers
         {
             return View();
         }
+        public ActionResult Array()
+        {
+            return View();
+        }
     }
 }

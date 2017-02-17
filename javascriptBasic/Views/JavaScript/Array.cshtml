@@ -1,0 +1,49 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Array</title>
+</head>
+<body>
+    <h1>Array demo</h1>
+    <div> 
+        <div id="demo"></div>
+        <script>
+            var arrayPM = ['Sanji', 'Ussop', 'Zoro'];
+            document.getElementById("demo").innerHTML = arrayPM[1];
+        </script>
+    </div>
+    <div>
+        <h1>Push a value on array</h1>
+        <button onclick="myFunction()">Click Here</button>
+        <div id="demo1"></div>
+        <script>
+            var Onepiece = ['Sanji', 'Ussop', 'Zoro'];
+            document.getElementById("demo1").innerHTML = Onepiece;
+            function myFunction() {
+                Onepiece.push("Luffy");
+                document.getElementById("demo1").innerHTML = Onepiece;
+            }
+        </script>
+    </div>
+    <div>
+        <h1>Shift a value on array</h1>
+        <button onclick="myFunction()">Click Here</button>
+        <div id="demo1"></div>
+        <script>
+            var Onepiece = ['Sanji', 'Ussop', 'Zoro'];
+            document.getElementById("demo1").innerHTML = Onepiece;
+            function myFunction() {
+                Onepiece.shift;
+                document.getElementById("demo1").innerHTML = Onepiece;
+            }
+        </script>
+    </div>
+</body>
+</html>

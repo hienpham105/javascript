@@ -270,6 +270,7 @@
     <Content Include="Views\JavaScript\initvalue.cshtml" />
     <Content Include="Views\JavaScript\realtime.cshtml" />
     <Content Include="Views\JavaScript\function.cshtml" />
+    <Content Include="Views\JavaScript\Array.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
