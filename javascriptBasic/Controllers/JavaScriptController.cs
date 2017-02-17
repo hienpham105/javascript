@@ -25,5 +25,9 @@ namespace javascriptBasic.Controllers
         {
             return View();
         }
+        public ActionResult Sort()
+        {
+            return View();
+        }
     }
 }

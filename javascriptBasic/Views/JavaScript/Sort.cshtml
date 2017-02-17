@@ -1,0 +1,39 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Sort</title>
+</head>
+<body>
+    <div>
+        <p>Click the buttons to sort the array alphabetically or numerically.</p>
+
+        <button onclick="myFunction1()">Sort Alphabetically</button>
+        <button onclick="myFunction2()">Sort Numerically</button>
+
+        <p id="demo"></p>
+
+        <script>
+            //Sắp xếp chuỗi (array) số
+            var points = [40, 100, 1, 5, 25, 10];
+            document.getElementById("demo").innerHTML = points;
+            //sắp xếp theo bảng chữ cái
+            function myFunction1() {
+                points.sort();
+                document.getElementById("demo").innerHTML = points;
+            }
+            //sắp xếp theo chữ số
+            function myFunction2() {
+                points.sort(function (a, b) { return a - b });
+                document.getElementById("demo").innerHTML = points;
+            }
+        </script>
+    </div>
+</body>
+</html>

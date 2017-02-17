@@ -21,26 +21,26 @@
     </div>
     <div>
         <h1>Push a value on array</h1>
-        <button onclick="myFunction()">Click Here</button>
+        <button onclick="myFunction2()">Click Here</button>
         <div id="demo1"></div>
         <script>
             var Onepiece = ['Sanji', 'Ussop', 'Zoro'];
             document.getElementById("demo1").innerHTML = Onepiece;
-            function myFunction() {
-                Onepiece.push("Luffy");
+            function myFunction2() {
+                Onepiece.push("Luffy", "Robin", "Nami", "Chopper");
                 document.getElementById("demo1").innerHTML = Onepiece;
             }
         </script>
     </div>
     <div>
         <h1>Shift a value on array</h1>
-        <button onclick="myFunction()">Click Here</button>
+        <button onclick="myFunction3()">Click Here</button>
         <div id="demo1"></div>
         <script>
-            var Onepiece = ['Sanji', 'Ussop', 'Zoro'];
+            var Onepiece = ['Sanji', 'Ussop', 'Zoro','Robin','Nami','Chopper'];
             document.getElementById("demo1").innerHTML = Onepiece;
-            function myFunction() {
-                Onepiece.shift;
+            function myFunction3() {
+                Onepiece.shift();
                 document.getElementById("demo1").innerHTML = Onepiece;
             }
         </script>
