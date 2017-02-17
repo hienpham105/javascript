@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>javascript_sam</title>
+</head>
+<body>
+    <!--Phép cộng 2 số hạng, viết chức năng bằng javascript-->
+    <div>
+        <div id="demo">
+            <p>Div DEMO JavaScript Biến</p>
+        </div>
+        <script>
+            //Khai báo 2 biến số x, y và biến z dùng để lưu kết quả phép cộng 2 biến x,y
+            var x = 5;
+            var y = 20;
+            var z = x + y;
+            //Hiển thị kết quả bằng dòng lệnh, búh
+            document.getElementById("demo").innerHTML = "Kết quả là:" + z;
+        </script>
+    </div>
+    <div>
+        <div id="var">
+            <p>Hiển thị chuỗi</p>
+        </div>
+        <script>
+            //khai báo chuỗi
+            var firstName = "Jonh", lastName = "Smith", age = 18;
+            //Display on deskop
+            document.getElementById("var").innerHTML = firstName + " " + lastName + " " + age + " tuổi";
+        </script>
+    </div>
+
+</body>
+</html>
