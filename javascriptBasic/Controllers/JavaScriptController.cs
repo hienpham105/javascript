@@ -13,5 +13,9 @@ namespace javascriptBasic.Controllers
         {
             return View();
         }
+        public ActionResult realtime()
+        {
+            return View();
+        }
     }
 }

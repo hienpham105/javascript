@@ -1,0 +1,33 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>realtime</title>
+</head>
+<body>
+    <button onclick="myFunction()">Click Here</button>
+
+    <div id="demo"></div>
+
+    <script>
+        function myFunction() {
+            var greeting;
+            var time = new Date().getHours();
+            if (time < 10) {
+                greeting = "Good morning";
+            } else if (time < 20) {
+                greeting = "Good day";
+            } else {
+                greeting = "Good evening";
+            }
+            document.getElementById("demo").innerHTML ="Bây giờ là buổi"+ greeting;
+        }
+    </script>
+</body>
+</html>
