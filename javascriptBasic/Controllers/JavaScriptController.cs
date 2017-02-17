@@ -29,5 +29,9 @@ namespace javascriptBasic.Controllers
         {
             return View();
         }
+        public ActionResult Switch_case()
+        {
+            return View();
+        }
     }
 }

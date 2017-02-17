@@ -272,6 +272,7 @@
     <Content Include="Views\JavaScript\function.cshtml" />
     <Content Include="Views\JavaScript\Array.cshtml" />
     <Content Include="Views\JavaScript\Sort.cshtml" />
+    <Content Include="Views\JavaScript\Switch_case.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
