@@ -17,5 +17,9 @@ namespace javascriptBasic.Controllers
         {
             return View();
         }
+        public ActionResult function()
+        {
+            return View();
+        }
     }
 }

@@ -269,6 +269,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\JavaScript\initvalue.cshtml" />
     <Content Include="Views\JavaScript\realtime.cshtml" />
+    <Content Include="Views\JavaScript\function.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
