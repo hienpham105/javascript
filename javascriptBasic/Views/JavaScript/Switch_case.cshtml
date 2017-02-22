@@ -43,36 +43,8 @@
             document.getElementById("demo").innerHTML = "Today is " + day;
         </script>
 
-        <div>
-            <h1>Function</h1>
-            <input id="myInput" type="text" value="Apple">
-            <button onclick="checkFruit()">Check Fruit</button>
-            <p id="demo"></p>
-            <script>
-                function checkFruit() {
-                    var text;
-                    var fruits = document.getElementById("myInput").value;
-
-                    switch (fruits) {
-                        //cases fruits
-                        case "Banana":
-                            text = "Banana is good!";
-                            break;
-                        case "Orange":
-                            text = "I am not a fan of orange.";
-                            break;
-                        case "Apple":
-                            text = "How you like them apples";
-                            break;
-                            // add case here
-
-                        default:
-                            text = "I have never heard of that fruit.";
-                    }
-                    document.getElementById("demo").innerHTML = text;
-                }
-            </script>
-        </div>
+        <br />
+        <hr />
     </div>
 </body>
 </html>
